@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Customizing Bootstrap</title>
   <link rel="stylesheet" href="css/custom.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  
 </head>
 <body class="bg-light">
   <header>
@@ -45,7 +50,8 @@
             <img src="images/hero-img.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <h1 class="mb-3">Responsive heading for hero section</h1>
+            <h1 class="mb-3 animate__animated animate__zoomInLeft">Responsive heading for hero section</h1>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the animate__zoomInLeft class to apply the animation.-->
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus dui, dapibus in odio vel, tincidunt efficitur lacus. Aliquam vitae sem sed quam faucibus tincidunt vel eget tellus. Ut pulvinar a ex a condimentum. Nam est quam, sollicitudin tempor congue eu, convallis at nisi. </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
@@ -62,7 +68,8 @@
         <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Primary</h3>
+              <h3 class="animate__animated animate__slideInDown">Primary</h3>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the slideInDown class to apply the animation, then applied a duration of 3 seconds to make it feel a bit smoother.-->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-primary color-primary">
                 Primary button
@@ -71,7 +78,8 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Secondary</h3>
+              <h3 class="animate__animated animate__animated animate__zoomInRight">Secondary</h3>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the zoomInRight class to apply the animation, then applied a duration of 3 seconds to make it feel a bit smoother.-->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-secondary">
                 Secondary button
@@ -80,7 +88,8 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Success</h3>
+              <h3 class="animate__animated animate__zoomIn">Success</h3>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the zoomIn class to apply the animation, then applied a duration of 3 seconds to make it feel a bit smoother.-->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-success">
                 Success button
@@ -89,7 +98,8 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Info</h3>
+              <h3 class="animate__animated animate__slideInUp">Info</h3>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the slideInUp class to apply the animation, then applied a duration of 3 seconds to make it feel a bit smoother.-->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-info">
                 Info button
@@ -98,7 +108,8 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Warning</h3>
+              <h3 class="animate__animated animate__slideInLeft">Warning</h3>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the slideInLeft class to apply the animation, then applied a duration of 3 seconds to make it feel a bit smoother.-->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-warning">
                 Warning button
@@ -107,7 +118,8 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Danger</h3>
+              <h3 class="animate__animated animate__slideInRight">Danger</h3>
+            <!--I implimented this feature by linking the animate.css library and adding the animate__animated class to make it be targetted by animate.css then the slideInRight class to apply the animation, then applied a duration of 3 seconds to make it feel a bit smoother.-->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-danger">
                 Danger button

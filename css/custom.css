@@ -5,8 +5,29 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
+ .animate__animated.animate__zoomInLeft {
+  --animate-duration: 3s;
+}
+.animate__animated.animate__slideInDown {
+  --animate-duration: 3s;
+}
+.animate__animated.animate__zoomInRight {
+  --animate-duration: 3s;
+}
+.animate__animated.animate__zoomIn {
+  --animate-duration: 3s;
+}
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 3s;
+}
+.animate__animated.animate__slideInRight {
+  --animate-duration: 3s;
+}
+
 :root,
 [data-bs-theme=light] {
+  --animate-delay: 0.9s;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
